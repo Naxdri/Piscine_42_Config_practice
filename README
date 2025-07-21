@@ -5,52 +5,44 @@ The main **goal** is to set up your pc and then practice.
 You can not find solution or code here.
 Only example file of configuration and some intresting resource ;)
 
-LINUX (Ubuntu/Debian):
+-------------------LINUX (Ubuntu/Debian):-----------------------------------
 
-#Update 
-
+#Update > 
 sudo apt get update && sudo apt get upgrade
 
-# For gcc, gdb, valgrind and make
-
+# For gcc, gdb, valgrind and make >
 sudo apt install build-essential valgrind 
 gcc --version && make --version && gdb --version && valgrind --version
 
-# Install git
-
+# Install git >
 sudo apt install git 
 git config --global user.name "Your name"
 git config --global user.email "your.email@coffee.fr"
 git --version
 
-# Install Norminette (for 42 coding rules)
+# Install Norminette (for 42 coding rules) >
 # Repo official: https://github.com/42school/norminette
 # Take look at their pdf rules (~20 min)
-
 sudo apt install python3-setuptools
 sudo apt install pipx
 pipx install norminette
 pipx ensurepath
 norminette --version
 
-# Check Vim
-
+# Check Vim >
 Vim --version 
 
-# If you want to know some basic use of vim (~20 min)
-
+# If you want to know some basic use of vim (~20 min) >
 vimtutor
 
-# vim header to automate it
+# vim header to automate it >
 # Repo official: https://github.com/42paris/42header 
 # This cp command may not work, follow their repo guide :)
-# Also check ~/.vimrc in this repo to see other vim config
-
+# Also check vimrc_example in this repo to see other vim config
 cp stdheader.vim ~/.vim/plugin
 
-# Additional utilities
-
+# Additional utilities >
 sudo apt install man manpages-dev
 
 
-You find this repo usefull? Let's take a cofee <3
+You find this repo usefull ? Let's take a cofee <3
