@@ -1,0 +1,12 @@
+filetype on	"Détection du type de fichier
+syntax on	"Coloration syntaxique
+set noexpandtab
+let g:user42 = "Test_login"
+let g:mail42 = "debian_test@student.42.fr"
+set tabstop=4
+set shiftwidth=4
+set colorcolumn=81
+set list
+set number
+set ruler
+set listchars=tab:>-,trail:.,eol:$
