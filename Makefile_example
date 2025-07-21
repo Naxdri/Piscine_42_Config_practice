@@ -1,9 +1,9 @@
-NAME = putchar_program
+NAME = example_program
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = main.c ft_putchar.c
+SRC = example.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
