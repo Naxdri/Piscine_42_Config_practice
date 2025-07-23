@@ -39,7 +39,9 @@ vimtutor
 # Repo official: https://github.com/42paris/42header 
 # This cp command may not work, follow their repo guide :)
 # Also check vimrc_example in this repo to see other vim config
+#if ~/.vim/plugin do not exist do : mkdir -p ~/.vim/plugin
 cp stdheader.vim ~/.vim/plugin
+
 
 # Additional utilities >
 sudo apt install man manpages-dev
